@@ -728,9 +728,6 @@ El Consorci AOC presta els seus serveis de certificació amb la finalitat d'emet
 - **Certificat de Segell Electrònic Avançat (Segell nivell mig/substancial)**: Serveix per a la identificació i l'autenticació de documents, fitxers o missatges en l'exercici de les competències en l'actuació administrativa automatitzada per a la prestació de serveis públics segons el que preveu l'article 37 del Reglament (UE) núm. 910/2014. Aquest certificat pot ser utilitzat per a l'intercanvi de dades (entre administracions, administracions i ciutadans i entre administracions i empreses), la identificació i autenticació d'un sistema, servei web o aplicació, l'arxiu electrònic automatitzat, les compulses i còpies electròniques, entre uns altres. Aquests certificats s'emeten i emmagatzemen en programari.
 
 
-
-
-### <a name="_jzdhk5i1b2go"></a>**
 ### <a name="_toc150443516"></a>**1.1.2. Jerarquies**
 
 Segons es detalla en el gràfic següent, a partir de 2015, la jerarquia actual de certificació del Consorci AOC s'ha vist reduïda a dues Entitats de Certificació subordinades (marcades en verd) i una Entitat de Certificació arrel:
@@ -885,7 +882,7 @@ Les obligacions i responsabilitats del Consorci AOC amb tercers que voluntàriam
 
 Els tercers que confiïn en aquests certificats han de tenir present les limitacions en el seu ús.
 
-## <a name="_qsh70q"></a>**
+
 ## <a name="_toc150443531"></a>**1.4. Ús dels certificats**
 Aquesta secció llista les aplicacions per les quals es pot utilitzar cada tipus de certificat, establint limitacions, i prohibeix algunes aplicacions dels certificats.
 
@@ -1338,7 +1335,6 @@ Sense estipulació.
 ## <a name="_toc150443611"></a>**4.11. Finalització de la subscripció**
 La finalització de la subscripció no implicarà la revocació dels certificats que hagin estat emesos, sinó que aquests podran utilitzar-se fins que expirin.
 
-## <a name="_14ykbeg"></a>**
 ## <a name="_toc150443612"></a>**4.12. Dipòsit i recuperació de claus**
 ### <a name="_toc150443613"></a>**4.12.1. Política i pràctiques de dipòsit i recuperació de claus**
 La possibilitat que l'Entitat de Certificació o PSC ofereixi el servei de dipòsit i recuperació de claus pel que fa a una o diverses categories de certificats haurà de constar, en cas que aquesta opció sigui possible, en la corresponent PC . En la mateixa serà necessari detallar, almenys, els següents aspectes:
@@ -1895,7 +1891,6 @@ Es garanteix que l'accés a les diferents xarxes de l'Entitat de Certificació e
 - Es garanteix que els components locals de xarxa (com enrutadores/routers) es troben situats en entorns segurs; també es garanteix l'auditoria periòdica de les seves configuracions.
 
 ##
-# <a name="_xevivl"></a><a name="_3hej1je"></a>**
 # <a name="_toc150443707"></a>**7. Perfils de certificats i llistes de revocació de certificats**
 ## <a name="_toc150443708"></a>**7.1. Perfil de certificat**
 Els documents descriptius dels diferents perfils de certificats digitals que expedeix l'Entitat de Certificació es publiquen a la web del Consorci AOC.
@@ -1979,7 +1974,7 @@ L'accés a la informació relativa a la llista de revocació de certificats es p
 
 ## <a name="_toc150443720"></a>**7.3 Perfil de OCSP**
 Els serveis d'OCSP compleixen amb la norma IETF RFC 6960.
-# <a name="_mg3s3sge4lv3"></a>**
+
 # <a name="_toc150443721"></a>**8. Auditoria de conformitat**
 L'Entitat de Certificació realitza periòdicament una auditoria de conformitat per provar que compleix els requisits de seguretat i d'operació necessaris per formar part de la jerarquia pública de certificació de Catalunya.
 
