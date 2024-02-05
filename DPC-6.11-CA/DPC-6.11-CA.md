@@ -50,9 +50,10 @@ La versió original en vigor d'aquest document es troba en format electrònic pu
 |6\.9|<p>- Apartat 6.1.9: Aclaracions us de claus privades</p><p>- Apartat 9.6.3.1.1: Aclaracions referents a PC</p><p>- Eliminació de referències a QWAC i QTSA </p><p>- Canvi de URLs a web epscd.aoc.cat</p>|10/05/2023|
 |6\.10|<p>- Apartats 4.9.13 a 4.9.18: eliminació de la referència a la suspensió de certificats.</p><p>- Apartats 1.1.1.2 i 1.2.2: inclusió del Certificat T-CATP pseudònim.</p><p>- Modificació de l'apartat 4.9.3: Inclusió de la revocació de certificats pel propi usuari via web.</p>|15/11/2023|
 |6\.11|- Canvi d’adreça del prestador.|10/01/2024|
+#
 
+# <a name="_1fob9te"></a>**Índex**
 
-<a name="_1fob9te"></a>**Índex**
 
 [1. Introducció](#_toc150443510)
 
@@ -662,7 +663,7 @@ La versió original en vigor d'aquest document es troba en format electrònic pu
 
 
 
-
+#
 
 
 
