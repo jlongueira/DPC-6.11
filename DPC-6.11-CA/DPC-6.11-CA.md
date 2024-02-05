@@ -35,11 +35,8 @@ Data:		10/01/2024
 La versió original en vigor d'aquest document es troba en format electrònic publicada en el lloc web del Consorci AOC i pot ser accessible a través de la següent URL: https://epscd.aoc.cat/regulacio
 
 
-
-**Historial de versions**
-
 |Versió|Resum dels canvis|Data|
-| :-: | :-: | :-: |
+| :-: | :- | :-: |
 |5\.0|Adaptació a EIDAS|9/5/2018|
 |6\.0|Creació de nova declaració de pràctiques de certificació unificada. Es numera com a versió 6.0 a l'efecte de gestió documental.|26/07/2018|
 |6\.1|<p>- Revisió anual de la documentació, post auditoria eIDAS.</p><p>- Alineat document amb RFC 3647.</p><p>- “*1.1. Presentació*”: indicada prevalença de les guies del CA/Browser Forum sobre la propia DPC.</p><p>- “*1.5.5. Freqüència de revisió*”: creat apartat.</p><p>- “*4.4.3. Publicació del certificat*”: indicada possibilitat de publicació de certificats si es disposa del consentiment exprés.</p><p>- “*4.10.7. Freqüència d'emissió de llistes de revocació de certificats (LRCs)*”: afegida freqüència de publicació de la CRL.</p><p>- “*5.2.2. Número de persones per tasca*”: especificada la redundancia de rols per certes tasques.</p><p>- “*6.5.3. Freqüència de revisió de les configuracions dels sistemes de confiança*”: creat apartat.</p><p>- “*9.4. Protecció de dades personals*”: ajustades descripcions i actualitzada legislació aplicable, incloent RGPD i la LOPDGDD.</p><p>- “*9.12.1. Procediment per a les modificacions*”: reformulat apartat</p><p>- Eliminades referències a signatura de codi.</p><p>- Realitzats petits ajustos de congruència als textos.</p>|24/07/2019|
@@ -52,7 +49,7 @@ La versió original en vigor d'aquest document es troba en format electrònic pu
 |6\.8|- Apartat 1.5.2. Actualització de les dades de contacte de l'organització |29/03/2023|
 |6\.9|<p>- Apartat 6.1.9: Aclaracions us de claus privades</p><p>- Apartat 9.6.3.1.1: Aclaracions referents a PC</p><p>- Eliminació de referències a QWAC i QTSA </p><p>- Canvi de URLs a web epscd.aoc.cat</p>|10/05/2023|
 |6\.10|<p>- Apartats 4.9.13 a 4.9.18: eliminació de la referència a la suspensió de certificats.</p><p>- Apartats 1.1.1.2 i 1.2.2: inclusió del Certificat T-CATP pseudònim.</p><p>- Modificació de l'apartat 4.9.3: Inclusió de la revocació de certificats pel propi usuari via web.</p>|15/11/2023|
-|6\.11|- Canvi d’adreça del prestador|10/01/2024|
+|6\.11|- Canvi d’adreça del prestador.|10/01/2024|
 
 
 <a name="_1fob9te"></a>**Índex**
