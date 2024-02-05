@@ -1,8 +1,8 @@
 ﻿
 
 
-|![logo_CAOC](Aspose.Words.56f09d83-6f4f-4c66-82ba-6b1a5ebfec47.001.png)||
-| :-: | :-: |
+![logo_CAOC](Aspose.Words.56f09d83-6f4f-4c66-82ba-6b1a5ebfec47.001.png)
+
 
 
 <a name="_gjdgxs"></a><a name="_30j0zll"></a>**Declaració de Pràctiques de Certificació**
