@@ -55,615 +55,613 @@ La versió original en vigor d'aquest document es troba en format electrònic pu
 |6\.11|- Canvi d’adreça del prestador|10/01/2024|
 
 
-
------2 de 3
 <a name="_1fob9te"></a>**Índex**
 
-[1. Introducció	13](#_toc150443510)
+[1. Introducció](#_toc150443510)
 
-[1.1. Presentació	13](#_toc150443511)
+[1.1. Presentació](#_toc150443511)
 
-[1.1.1. Tipus i classes de certificats	14](#_toc150443512)
+[1.1.1. Tipus i classes de certificats](#_toc150443512)
 
-[1.1.1.1. Certificats de ciutadania	14](#_toc150443513)
+[1.1.1.1. Certificats de ciutadania](#_toc150443513)
 
-[1.1.1.2. Certificats Personals del Sector Públic	14](#_toc150443514)
+[1.1.1.2. Certificats Personals del Sector Públic](#_toc150443514)
 
-[1.1.1.3. Certificats de Dispositius i Infraestructures	16](#_toc150443515)
+[1.1.1.3. Certificats de Dispositius i Infraestructures](#_toc150443515)
 
-[1.1.2. Jerarquies	17](#_toc150443516)
+[1.1.2. Jerarquies](#_toc150443516)
 
-[1.1.3. Emissió de certificats de proves	17](#_toc150443517)
+[1.1.3. Emissió de certificats de proves](#_toc150443517)
 
-[1.2. Nom del document i identificació	18](#_toc150443518)
+[1.2. Nom del document i identificació](#_toc150443518)
 
-[1.2.1. Identificació d’aquest document	18](#_toc150443519)
+[1.2.1. Identificació d’aquest document](#_toc150443519)
 
-[1.2.2. Identificació de polítiques de certificació cobertes per aquesta DPC	19](#_toc150443520)
+[1.2.2. Identificació de polítiques de certificació cobertes per aquesta DPC](#_toc150443520)
 
-[1.3. Entitats participants	21](#_toc150443521)
+[1.3. Entitats participants](#_toc150443521)
 
-[1.3.1. Prestador de serveis de confiança	21](#_toc150443522)
+[1.3.1. Prestador de serveis de confiança](#_toc150443522)
 
-[1.3.2. Entitat de Certificació Arrel	21](#_toc150443523)
+[1.3.2. Entitat de Certificació Arrel](#_toc150443523)
 
-[1.3.3. Entitats de Certificació subordinades	22](#_toc150443524)
+[1.3.3. Entitats de Certificació subordinades](#_toc150443524)
 
-[1.3.4. Entitats de Registre	22](#_toc150443525)
+[1.3.4. Entitats de Registre](#_toc150443525)
 
-[1.3.5. Usuaris finals	23](#_toc150443526)
+[1.3.5. Usuaris finals](#_toc150443526)
 
-[1.3.5.1. Sol·licitants de certificats	23](#_toc150443527)
+[1.3.5.1. Sol·licitants de certificats](#_toc150443527)
 
-[1.3.5.2. Subscriptors de certificats	23](#_toc150443528)
+[1.3.5.2. Subscriptors de certificats](#_toc150443528)
 
-[1.3.5.3. Posseïdors de claus o signatàries	24](#_toc150443529)
+[1.3.5.3. Posseïdors de claus o signatàries](#_toc150443529)
 
-[1.3.5.4. Tercer que confia en els certificats	24](#_toc150443530)
+[1.3.5.4. Tercer que confia en els certificats](#_toc150443530)
 
-[1.4. Ús dels certificats	25](#_toc150443531)
+[1.4. Ús dels certificats](#_toc150443531)
 
-[1.4.1. Ús típic dels certificats	25](#_toc150443532)
+[1.4.1. Ús típic dels certificats](#_toc150443532)
 
-[1.4.2. Usos prohibits	25](#_toc150443533)
+[1.4.2. Usos prohibits](#_toc150443533)
 
-[1.5. Administració de la Declaració de Pràctiques	25](#_toc150443534)
+[1.5. Administració de la Declaració de Pràctiques](#_toc150443534)
 
-[1.5.1. Organització que administra l'especificació	25](#_toc150443535)
+[1.5.1. Organització que administra l'especificació](#_toc150443535)
 
-[1.5.2. Dades de contacte de l'organització	25](#_toc150443536)
+[1.5.2. Dades de contacte de l'organització](#_toc150443536)
 
-[1.5.3. Persona que determina la conformitat d'una Declaració de Pràctiques de Certificació (DPC) amb la política	26](#_toc150443537)
+[1.5.3. Persona que determina la conformitat d'una Declaració de Pràctiques de Certificació (DPC) amb la política](#_toc150443537)
 
-[1.5.4. Procediment d’aprovació	26](#_toc150443538)
+[1.5.4. Procediment d’aprovació](#_toc150443538)
 
-[1.5.5. Freqüència de revisió	26](#_toc150443539)
+[1.5.5. Freqüència de revisió](#_toc150443539)
 
-[1.6 DEFINICIONS i ACRÒNIMS	26](#_toc150443540)
+[1.6 DEFINICIONS i ACRÒNIMS](#_toc150443540)
 
-[1.6.1 Definicions	26](#_toc150443541)
+[1.6.1 Definicions](#_toc150443541)
 
-[1.6.2. Acrònims	28](#_toc150443542)
+[1.6.2. Acrònims](#_toc150443542)
 
-[2. Publicació d'informació i directori de certificats	29](#_toc150443543)
+[2. Publicació d'informació i directori de certificats](#_toc150443543)
 
-[2.1. Directori de certificats	29](#_toc150443544)
+[2.1. Directori de certificats](#_toc150443544)
 
-[2.2. Publicació d'informació de l'Entitat de Certificació	29](#_toc150443545)
+[2.2. Publicació d'informació de l'Entitat de Certificació](#_toc150443545)
 
-[2.3. Freqüència de publicació	29](#_toc150443546)
+[2.3. Freqüència de publicació](#_toc150443546)
 
-[2.4. Control d'accés	30](#_toc150443547)
+[2.4. Control d'accés](#_toc150443547)
 
-[3. Identificació i autenticació	31](#_toc150443548)
+[3. Identificació i autenticació](#_toc150443548)
 
-[3.1. Gestió de nom	31](#_toc150443549)
+[3.1. Gestió de nom](#_toc150443549)
 
-[3.1.1. Tipus de noms	31](#_toc150443550)
+[3.1.1. Tipus de noms](#_toc150443550)
 
-[3.1.1.1. Estructura sintàctica	31](#_toc150443551)
+[3.1.1.1. Estructura sintàctica](#_toc150443551)
 
-[3.1.1.2. Perfils dels certificats	31](#_toc150443552)
+[3.1.1.2. Perfils dels certificats](#_toc150443552)
 
-[3.1.2. Significat dels noms	31](#_toc150443553)
+[3.1.2. Significat dels noms](#_toc150443553)
 
-[3.1.3. Utilització de pseudònims	31](#_toc150443554)
+[3.1.3. Utilització de pseudònims](#_toc150443554)
 
-[3.1.4. Interpretació de formats de noms	31](#_toc150443555)
+[3.1.4. Interpretació de formats de noms](#_toc150443555)
 
-[3.1.5. Unicitat dels noms	31](#_toc150443556)
+[3.1.5. Unicitat dels noms](#_toc150443556)
 
-[3.1.6. Seqüència i freqüència de rotació laboral	32](#_toc150443557)
+[3.1.6. Seqüència i freqüència de rotació laboral](#_toc150443557)
 
-[3.1.7. Resolució de conflictes relatius a noms	32](#_toc150443558)
+[3.1.7. Resolució de conflictes relatius a noms](#_toc150443558)
 
-[3.2. Validació inicial de la identitat	32](#_toc150443559)
+[3.2. Validació inicial de la identitat](#_toc150443559)
 
-[3.2.1. Prova de possessió de clau privada	32](#_toc150443560)
+[3.2.1. Prova de possessió de clau privada](#_toc150443560)
 
-[3.2.2. Autenticació de la identitat d'una organització	32](#_toc150443561)
+[3.2.2. Autenticació de la identitat d'una organització](#_toc150443561)
 
-[3.2.2.1. Entitats de Registre	32](#_toc150443562)
+[3.2.2.1. Entitats de Registre](#_toc150443562)
 
-[3.2.3. Autenticació de la identitat d’una persona física	32](#_toc150443563)
+[3.2.3. Autenticació de la identitat d’una persona física](#_toc150443563)
 
-[3.2.3.1. Elements d’identificació	33](#_toc150443564)
+[3.2.3.1. Elements d’identificació](#_toc150443564)
 
-[3.2.3.2. Validació dels elements d’identificació	33](#_toc150443565)
+[3.2.3.2. Validació dels elements d’identificació](#_toc150443565)
 
-[3.2.3.3. Necessitat de presència personal	33](#_toc150443566)
+[3.2.3.3. Necessitat de presència personal](#_toc150443566)
 
-[3.2.3.4. Vinculació de la persona física amb l’organització	34](#_toc150443567)
+[3.2.3.4. Vinculació de la persona física amb l’organització](#_toc150443567)
 
-[3.2.4. Informació no verificada	34](#_toc150443568)
+[3.2.4. Informació no verificada](#_toc150443568)
 
-[3.2.5 Criteris d'interoperabilitat	34](#_toc150443569)
+[3.2.5 Criteris d'interoperabilitat](#_toc150443569)
 
-[3.3. Identificació i autenticació de sol·licituds de renovació	34](#_toc150443570)
+[3.3. Identificació i autenticació de sol·licituds de renovació](#_toc150443570)
 
-[3.3.1. Validació per a la renovació de certificats	34](#_toc150443571)
+[3.3.1. Validació per a la renovació de certificats](#_toc150443571)
 
-[3.3.2. Validació per a la renovació de certificats després de la revocació	34](#_toc150443572)
+[3.3.2. Validació per a la renovació de certificats després de la revocació](#_toc150443572)
 
-[4. Característiques d'operació del cicle de vida dels certificats	35](#_toc150443573)
+[4. Característiques d'operació del cicle de vida dels certificats](#_toc150443573)
 
-[4.1. Sol·licitud d'emissió de certificat	35](#_toc150443574)
+[4.1. Sol·licitud d'emissió de certificat](#_toc150443574)
 
-[4.1.1. Legitimació per sol·licitar l'emissió	35](#_toc150443575)
+[4.1.1. Legitimació per sol·licitar l'emissió](#_toc150443575)
 
-[4.1.2. Procediment d'alta; Responsabilitats	35](#_toc150443576)
+[4.1.2. Procediment d'alta; Responsabilitats](#_toc150443576)
 
-[4.2. Processament de la sol·licitud de certificació	35](#_toc150443577)
+[4.2. Processament de la sol·licitud de certificació](#_toc150443577)
 
-[4.3. Emissió de certificat	35](#_toc150443578)
+[4.3. Emissió de certificat](#_toc150443578)
 
-[4.3.1. Accions de l'Entitat de Certificació durant el procés d'emissió	35](#_toc150443579)
+[4.3.1. Accions de l'Entitat de Certificació durant el procés d'emissió](#_toc150443579)
 
-[4.3.2. Comunicació de l'emissió al subscriptor	36](#_toc150443580)
+[4.3.2. Comunicació de l'emissió al subscriptor](#_toc150443580)
 
-[4.4. Acceptació del certificat	36](#_toc150443581)
+[4.4. Acceptació del certificat](#_toc150443581)
 
-[4.4.1. Responsabilitats del Prestador de Serveis de Confiança	36](#_toc150443582)
+[4.4.1. Responsabilitats del Prestador de Serveis de Confiança](#_toc150443582)
 
-[4.4.2. Conducta que constitueix acceptació del certificat	36](#_toc150443583)
+[4.4.2. Conducta que constitueix acceptació del certificat](#_toc150443583)
 
-[4.4.3. Publicació del certificat	36](#_toc150443584)
+[4.4.3. Publicació del certificat](#_toc150443584)
 
-[4.4.4. Notificació de l'emissió a tercers	36](#_toc150443585)
+[4.4.4. Notificació de l'emissió a tercers](#_toc150443585)
 
-[4.5. Ús del parell de claus i del certificat	37](#_toc150443586)
+[4.5. Ús del parell de claus i del certificat](#_toc150443586)
 
-[4.5.1. Ús per part dels posseïdors de claus	37](#_toc150443587)
+[4.5.1. Ús per part dels posseïdors de claus](#_toc150443587)
 
-[4.5.2. Ús pel tercer que confia en certificats	37](#_toc150443588)
+[4.5.2. Ús pel tercer que confia en certificats](#_toc150443588)
 
-[4.6. Renovació de certificats sense renovació de claus	37](#_toc150443589)
+[4.6. Renovació de certificats sense renovació de claus](#_toc150443589)
 
-[4.7. Renovació de certificats amb renovació de claus	37](#_toc150443590)
+[4.7. Renovació de certificats amb renovació de claus](#_toc150443590)
 
-[4.7.1. Renovació telemàtica	37](#_toc150443591)
+[4.7.1. Renovació telemàtica](#_toc150443591)
 
-[4.8. Modificació de certificats	38](#_toc150443592)
+[4.8. Modificació de certificats](#_toc150443592)
 
-[4.9. Revocació de certificats	38](#_toc150443593)
+[4.9. Revocació de certificats](#_toc150443593)
 
-[4.9.1. Causes de revocació de certificats	38](#_toc150443594)
+[4.9.1. Causes de revocació de certificats](#_toc150443594)
 
-[4.9.2. Legitimació per sol·licitar la revocació	40](#_toc150443595)
+[4.9.2. Legitimació per sol·licitar la revocació](#_toc150443595)
 
-[4.9.3. Procediments de sol·licitud de revocació	40](#_toc150443596)
+[4.9.3. Procediments de sol·licitud de revocació](#_toc150443596)
 
-[4.9.4. Termini temporal de sol·licitud de revocació	40](#_toc150443597)
+[4.9.4. Termini temporal de sol·licitud de revocació](#_toc150443597)
 
-[4.9.5. Termini màxim de processament de la sol·licitud de revocació	40](#_toc150443598)
+[4.9.5. Termini màxim de processament de la sol·licitud de revocació](#_toc150443598)
 
-[4.9.6. Obligació de consulta d'informació de revocació de certificats	41](#_toc150443599)
+[4.9.6. Obligació de consulta d'informació de revocació de certificats](#_toc150443599)
 
-[4.9.7. Freqüència d'emissió de llistes de revocació de certificats (LRCs)	41](#_toc150443600)
+[4.9.7. Freqüència d'emissió de llistes de revocació de certificats (LRCs)](#_toc150443600)
 
-[4.9.8. Període màxim de publicació de LRCs	41](#_toc150443601)
+[4.9.8. Període màxim de publicació de LRCs](#_toc150443601)
 
-[4.9.9. Disponibilitat de serveis de comprovació d'estat de certificats	41](#_toc150443602)
+[4.9.9. Disponibilitat de serveis de comprovació d'estat de certificats](#_toc150443602)
 
-[4.9.10. Obligació de consulta de serveis de comprovació d'estat de certificats	42](#_toc150443603)
+[4.9.10. Obligació de consulta de serveis de comprovació d'estat de certificats](#_toc150443603)
 
-[4.9.11. Altres formes d'informació de revocació de certificats	42](#_toc150443604)
+[4.9.11. Altres formes d'informació de revocació de certificats](#_toc150443604)
 
-[4.9.12. Requeriments especials en cas de compromís de la clau privada	42](#_toc150443605)
+[4.9.12. Requeriments especials en cas de compromís de la clau privada](#_toc150443605)
 
-[4.9.13. Període de validesa dels certificats	42](#_toc150443606)
+[4.9.13. Període de validesa dels certificats](#_toc150443606)
 
-[4.10. Serveis de comprovació d'estat de certificats	43](#_toc150443607)
+[4.10. Serveis de comprovació d'estat de certificats](#_toc150443607)
 
-[4.10.1. Característiques d'operació dels serveis	43](#_toc150443608)
+[4.10.1. Característiques d'operació dels serveis](#_toc150443608)
 
-[4.10.2. Disponibilitat dels serveis	43](#_toc150443609)
+[4.10.2. Disponibilitat dels serveis](#_toc150443609)
 
-[4.10.3. Altres funcions dels serveis	43](#_toc150443610)
+[4.10.3. Altres funcions dels serveis](#_toc150443610)
 
-[4.11. Finalització de la subscripció	43](#_toc150443611)
+[4.11. Finalització de la subscripció](#_toc150443611)
 
-[4.12. Dipòsit i recuperació de claus	44](#_toc150443612)
+[4.12. Dipòsit i recuperació de claus](#_toc150443612)
 
-[4.12.1. Política i pràctiques de dipòsit i recuperació de claus	44](#_toc150443613)
+[4.12.1. Política i pràctiques de dipòsit i recuperació de claus](#_toc150443613)
 
-[4.12.2. Política i pràctiques d'encapsulat i recuperació de claus de sessió	44](#_toc150443614)
+[4.12.2. Política i pràctiques d'encapsulat i recuperació de claus de sessió](#_toc150443614)
 
-[5. Controls de seguretat física, de gestió i d'operacions	45](#_toc150443615)
+[5. Controls de seguretat física, de gestió i d'operacions](#_toc150443615)
 
-[5.1. Controls de seguretat física	45](#_toc150443616)
+[5.1. Controls de seguretat física](#_toc150443616)
 
-[5.1.1. Àrees segures	45](#_toc150443617)
+[5.1.1. Àrees segures](#_toc150443617)
 
-[5.1.2. Controls de seguretat física	45](#_toc150443618)
+[5.1.2. Controls de seguretat física](#_toc150443618)
 
-[5.1.3. Localització i construcció de les instal·lacions	46](#_toc150443619)
+[5.1.3. Localització i construcció de les instal·lacions](#_toc150443619)
 
-[5.1.4. Accés físic	46](#_toc150443620)
+[5.1.4. Accés físic](#_toc150443620)
 
-[5.1.5. Electricitat i aire condicionat	46](#_toc150443621)
+[5.1.5. Electricitat i aire condicionat](#_toc150443621)
 
-[5.1.6. Exposició a l'aigua	47](#_toc150443622)
+[5.1.6. Exposició a l'aigua](#_toc150443622)
 
-[5.1.7. Advertiment i protecció d'incendis	47](#_toc150443623)
+[5.1.7. Advertiment i protecció d'incendis](#_toc150443623)
 
-[5.1.8. Emmagatzematge de suports	47](#_toc150443624)
+[5.1.8. Emmagatzematge de suports](#_toc150443624)
 
-[5.1.9. Tractament de residus	47](#_toc150443625)
+[5.1.9. Tractament de residus](#_toc150443625)
 
-[5.1.10. Còpia de seguretat fora de les instal·lacions	47](#_toc150443626)
+[5.1.10. Còpia de seguretat fora de les instal·lacions](#_toc150443626)
 
-[5.2. Controls de procediments	47](#_toc150443627)
+[5.2. Controls de procediments](#_toc150443627)
 
-[5.2.1. Funcions fiables	47](#_toc150443628)
+[5.2.1. Funcions fiables](#_toc150443628)
 
-[5.2.2. Número de persones per tasca	48](#_toc150443629)
+[5.2.2. Número de persones per tasca](#_toc150443629)
 
-[5.2.3. Identificació i autenticació per a cada funció	48](#_toc150443630)
+[5.2.3. Identificació i autenticació per a cada funció](#_toc150443630)
 
-[5.2.4. Rols que requereixen separació de tasques	48](#_toc150443631)
+[5.2.4. Rols que requereixen separació de tasques](#_toc150443631)
 
-[5.3. Controls de personal	49](#_toc150443632)
+[5.3. Controls de personal](#_toc150443632)
 
-[5.3.1. Requisits d'historial, qualificacions, experiència i autorització	50](#_toc150443633)
+[5.3.1. Requisits d'historial, qualificacions, experiència i autorització](#_toc150443633)
 
-[5.3.2. Requisits de formació	50](#_toc150443634)
+[5.3.2. Requisits de formació](#_toc150443634)
 
-[5.3.3. Requisits i freqüència d’actualització formativa	51](#_toc150443635)
+[5.3.3. Requisits i freqüència d’actualització formativa](#_toc150443635)
 
-[5.3.4. Sancions per accions no autoritzades	51](#_toc150443636)
+[5.3.4. Sancions per accions no autoritzades](#_toc150443636)
 
-[5.3.5. Requisits de contractació de professionals	51](#_toc150443637)
+[5.3.5. Requisits de contractació de professionals](#_toc150443637)
 
-[5.3.6. Subministrament de documentació al personal	51](#_toc150443638)
+[5.3.6. Subministrament de documentació al personal](#_toc150443638)
 
-[5.4. Procediments d’auditoria de seguretat	52](#_toc150443639)
+[5.4. Procediments d’auditoria de seguretat](#_toc150443639)
 
-[5.4.1. Tipus d'esdeveniments registrats	52](#_toc150443640)
+[5.4.1. Tipus d'esdeveniments registrats](#_toc150443640)
 
-[5.4.2. Freqüència de tractament de registres d'auditoria	53](#_toc150443641)
+[5.4.2. Freqüència de tractament de registres d'auditoria](#_toc150443641)
 
-[5.4.3. Període de conservació de registres d'auditoria	53](#_toc150443642)
+[5.4.3. Període de conservació de registres d'auditoria](#_toc150443642)
 
-[5.4.4. Protecció dels registres d’auditoria	53](#_toc150443643)
+[5.4.4. Protecció dels registres d’auditoria](#_toc150443643)
 
-[5.4.5. Procediments de còpia de seguretat	53](#_toc150443644)
+[5.4.5. Procediments de còpia de seguretat](#_toc150443644)
 
-[5.4.6. Localització del sistema d'acumulació de registres d'auditoria	53](#_toc150443645)
+[5.4.6. Localització del sistema d'acumulació de registres d'auditoria](#_toc150443645)
 
-[5.4.7. Notificació de l'esdeveniment d'auditoria al causant	54](#_toc150443646)
+[5.4.7. Notificació de l'esdeveniment d'auditoria al causant](#_toc150443646)
 
-[5.4.8. Anàlisi de vulnerabilitats	54](#_toc150443647)
+[5.4.8. Anàlisi de vulnerabilitats](#_toc150443647)
 
-[5.5. Arxiu d’informacions	54](#_toc150443648)
+[5.5. Arxiu d’informacions](#_toc150443648)
 
-[5.5.1. Tipus d'esdeveniments registrats	54](#_toc150443649)
+[5.5.1. Tipus d'esdeveniments registrats](#_toc150443649)
 
-[5.5.2. Període de conservació de registres	54](#_toc150443650)
+[5.5.2. Període de conservació de registres](#_toc150443650)
 
-[5.5.3. Protecció de l’arxiu	54](#_toc150443651)
+[5.5.3. Protecció de l’arxiu](#_toc150443651)
 
-[5.5.4. Procediments de còpia de seguretat	55](#_toc150443652)
+[5.5.4. Procediments de còpia de seguretat](#_toc150443652)
 
-[5.5.5. Requisits de segell de cautela de data i hora	55](#_toc150443653)
+[5.5.5. Requisits de segell de cautela de data i hora](#_toc150443653)
 
-[5.5.6. Localització del sistema d'arxiu	55](#_toc150443654)
+[5.5.6. Localització del sistema d'arxiu](#_toc150443654)
 
-[5.5.7. Procediments d'obtenció i verificació d'informació d'arxiu	55](#_toc150443655)
+[5.5.7. Procediments d'obtenció i verificació d'informació d'arxiu](#_toc150443655)
 
-[5.6. Renovació de claus	55](#_toc150443656)
+[5.6. Renovació de claus](#_toc150443656)
 
-[5.7. Compromís de claus i recuperació de desastre	55](#_toc150443657)
+[5.7. Compromís de claus i recuperació de desastre](#_toc150443657)
 
-[5.7.1. Procediment de gestió d'incidències i compromisos	55](#_toc150443658)
+[5.7.1. Procediment de gestió d'incidències i compromisos](#_toc150443658)
 
-[5.7.2. Corrupció de recursos, aplicacions o dades	55](#_toc150443659)
+[5.7.2. Corrupció de recursos, aplicacions o dades](#_toc150443659)
 
-[5.7.3. Compromís de la clau privada de l'Entitat	56](#_toc150443660)
+[5.7.3. Compromís de la clau privada de l'Entitat](#_toc150443660)
 
-[5.7.4. Desastre sobre les instal·lacions	56](#_toc150443661)
+[5.7.4. Desastre sobre les instal·lacions](#_toc150443661)
 
-[5.8. Finalització del servei	56](#_toc150443662)
+[5.8. Finalització del servei](#_toc150443662)
 
-[5.8.1. L’Entitat de Certificació	56](#_toc150443663)
+[5.8.1. L’Entitat de Certificació](#_toc150443663)
 
-[5.8.2. Entitat de Registre	57](#_toc150443664)
+[5.8.2. Entitat de Registre](#_toc150443664)
 
-[6. Controls de seguretat tècnica	58](#_toc150443665)
+[6. Controls de seguretat tècnica](#_toc150443665)
 
-[6.1. Generació i instal·lació del parell de claus	58](#_toc150443666)
+[6.1. Generació i instal·lació del parell de claus](#_toc150443666)
 
-[6.1.1. Generació del parell de claus	58](#_toc150443667)
+[6.1.1. Generació del parell de claus](#_toc150443667)
 
-[6.1.1.1. Requisits per a tots els certificats	58](#_toc150443668)
+[6.1.1.1. Requisits per a tots els certificats](#_toc150443668)
 
-[6.1.2. Enviament de la clau privada al subscriptor	58](#_toc150443669)
+[6.1.2. Enviament de la clau privada al subscriptor](#_toc150443669)
 
-[6.1.3. Enviament de la clau pública a l'emissor del certificat	58](#_toc150443670)
+[6.1.3. Enviament de la clau pública a l'emissor del certificat](#_toc150443670)
 
-[6.1.4. Distribució de la clau pública del Prestador de Serveis de Confiança	58](#_toc150443671)
+[6.1.4. Distribució de la clau pública del Prestador de Serveis de Confiança](#_toc150443671)
 
-[6.1.5. Mides de claus	59](#_toc150443672)
+[6.1.5. Mides de claus](#_toc150443672)
 
-[6.1.6. Generació de paràmetres de clau pública	59](#_toc150443673)
+[6.1.6. Generació de paràmetres de clau pública](#_toc150443673)
 
-[6.1.7. Comprovació de qualitat de paràmetres de clau pública	59](#_toc150443674)
+[6.1.7. Comprovació de qualitat de paràmetres de clau pública](#_toc150443674)
 
-[6.1.8. Generació de claus en aplicacions informàtiques o en béns d'equip	59](#_toc150443675)
+[6.1.8. Generació de claus en aplicacions informàtiques o en béns d'equip](#_toc150443675)
 
-[6.1.9. Propòsits d'ús de claus	59](#_toc150443676)
+[6.1.9. Propòsits d'ús de claus](#_toc150443676)
 
-[6.2. Protecció de la clau privada	60](#_toc150443677)
+[6.2. Protecció de la clau privada](#_toc150443677)
 
-[6.2.1. Mòduls de protecció de la clau privada	60](#_toc150443678)
+[6.2.1. Mòduls de protecció de la clau privada](#_toc150443678)
 
-[6.2.1.1. Estàndards dels mòduls criptogràfics	60](#_toc150443679)
+[6.2.1.1. Estàndards dels mòduls criptogràfics](#_toc150443679)
 
-[6.2.1.2. Cicle de vida de les targetes amb circuit integrat	60](#_toc150443680)
+[6.2.1.2. Cicle de vida de les targetes amb circuit integrat](#_toc150443680)
 
-[6.2.2. Control per més d'una persona sobre la clau privada	60](#_toc150443681)
+[6.2.2. Control per més d'una persona sobre la clau privada](#_toc150443681)
 
-[6.2.3. Dipòsit de la clau privada	61](#_toc150443682)
+[6.2.3. Dipòsit de la clau privada](#_toc150443682)
 
-[6.2.4. Còpia de seguretat de la clau privada	61](#_toc150443683)
+[6.2.4. Còpia de seguretat de la clau privada](#_toc150443683)
 
-[6.2.5. Arxiu de la clau privada	61](#_toc150443684)
+[6.2.5. Arxiu de la clau privada](#_toc150443684)
 
-[6.2.6. Introducció de la clau privada en el mòdul criptogràfic	61](#_toc150443685)
+[6.2.6. Introducció de la clau privada en el mòdul criptogràfic](#_toc150443685)
 
-[6.2.7. Emmagatzematge de la clau privada en el mòdul criptogràfic	61](#_toc150443686)
+[6.2.7. Emmagatzematge de la clau privada en el mòdul criptogràfic](#_toc150443686)
 
-[6.2.8. Mètode d'activació de la clau privada	61](#_toc150443687)
+[6.2.8. Mètode d'activació de la clau privada](#_toc150443687)
 
-[6.2.9. Mètode de desactivació de la clau privada	62](#_toc150443688)
+[6.2.9. Mètode de desactivació de la clau privada](#_toc150443688)
 
-[6.2.10. Mètode de destrucció de la clau privada	62](#_toc150443689)
+[6.2.10. Mètode de destrucció de la clau privada](#_toc150443689)
 
-[6.2.11. Classificació dels mòduls criptogràfics	62](#_toc150443690)
+[6.2.11. Classificació dels mòduls criptogràfics](#_toc150443690)
 
-[6.3. Altres aspectes de gestió del parell de claus	62](#_toc150443691)
+[6.3. Altres aspectes de gestió del parell de claus](#_toc150443691)
 
-[6.3.1. Arxiu de la clau pública	62](#_toc150443692)
+[6.3.1. Arxiu de la clau pública](#_toc150443692)
 
-[6.3.2. Períodes d'utilització de les claus públiques i privada	63](#_toc150443693)
+[6.3.2. Períodes d'utilització de les claus públiques i privada](#_toc150443693)
 
-[6.4. Dades d'activació	63](#_toc150443694)
+[6.4. Dades d'activació](#_toc150443694)
 
-[6.4.1. Generació i instal·lació de les claus d'activació	63](#_toc150443695)
+[6.4.1. Generació i instal·lació de les claus d'activació](#_toc150443695)
 
-[6.4.2. Protecció de les dades d'activació	63](#_toc150443696)
+[6.4.2. Protecció de les dades d'activació](#_toc150443696)
 
-[6.4.3. Altres aspectes de les dades d'activació	63](#_toc150443697)
+[6.4.3. Altres aspectes de les dades d'activació](#_toc150443697)
 
-[6.5. Controls de seguretat informàtica	63](#_toc150443698)
+[6.5. Controls de seguretat informàtica](#_toc150443698)
 
-[6.5.1. Requisits tècnics específics de seguretat informàtica	63](#_toc150443699)
+[6.5.1. Requisits tècnics específics de seguretat informàtica](#_toc150443699)
 
-[6.5.2. Avaluació del nivell de seguretat informàtica	64](#_toc150443700)
+[6.5.2. Avaluació del nivell de seguretat informàtica](#_toc150443700)
 
-[6.5.3. Freqüència de revisió de les configuracions dels sistemes de confiança	64](#_toc150443701)
+[6.5.3. Freqüència de revisió de les configuracions dels sistemes de confiança](#_toc150443701)
 
-[6.6. Controls tècnics del cicle de vida	64](#_toc150443702)
+[6.6. Controls tècnics del cicle de vida](#_toc150443702)
 
-[6.6.1. Controls de desenvolupament de sistemes	64](#_toc150443703)
+[6.6.1. Controls de desenvolupament de sistemes](#_toc150443703)
 
-[6.6.2. Controls de gestió de seguretat	65](#_toc150443704)
+[6.6.2. Controls de gestió de seguretat](#_toc150443704)
 
-[6.6.3. Avaluació del nivell de seguretat del cicle de vida	65](#_toc150443705)
+[6.6.3. Avaluació del nivell de seguretat del cicle de vida](#_toc150443705)
 
-[6.7. Controls de seguretat de xarxa	65](#_toc150443706)
+[6.7. Controls de seguretat de xarxa](#_toc150443706)
 
-[7. Perfils de certificats i llistes de revocació de certificats	66](#_toc150443707)
+[7. Perfils de certificats i llistes de revocació de certificats](#_toc150443707)
 
-[7.1. Perfil de certificat	66](#_toc150443708)
+[7.1. Perfil de certificat](#_toc150443708)
 
-[7.1.1. Número de versió	67](#_toc150443709)
+[7.1.1. Número de versió](#_toc150443709)
 
-[7.1.2. Extensions de certificat	67](#_toc150443710)
+[7.1.2. Extensions de certificat](#_toc150443710)
 
-[7.1.3. Identificadors d'objecte d'algorismes	67](#_toc150443711)
+[7.1.3. Identificadors d'objecte d'algorismes](#_toc150443711)
 
-[7.1.4. Formats de nom	67](#_toc150443712)
+[7.1.4. Formats de nom](#_toc150443712)
 
-[7.1.5. Restriccions de noms	67](#_toc150443713)
+[7.1.5. Restriccions de noms](#_toc150443713)
 
-[7.1.6. Identificador d'objecte de política de certificat	67](#_toc150443714)
+[7.1.6. Identificador d'objecte de política de certificat](#_toc150443714)
 
-[7.1.7. Ús de l'extensió restriccions de política	67](#_toc150443715)
+[7.1.7. Ús de l'extensió restriccions de política](#_toc150443715)
 
-[7.1.8. Sintaxi i semàntica dels qualificadors de política	68](#_toc150443716)
+[7.1.8. Sintaxi i semàntica dels qualificadors de política](#_toc150443716)
 
-[7.1.9. Semàntica del procés de l'extensió crítica de la política de certificat	68](#_toc150443717)
+[7.1.9. Semàntica del procés de l'extensió crítica de la política de certificat](#_toc150443717)
 
-[7.1.10. Especificacions tècniques per a totes les Entitat de Certificació	68](#_toc150443718)
+[7.1.10. Especificacions tècniques per a totes les Entitat de Certificació](#_toc150443718)
 
-[7.2. Perfil de la llista de revocació de certificats	68](#_toc150443719)
+[7.2. Perfil de la llista de revocació de certificats](#_toc150443719)
 
-[7.3 Perfil de OCSP	68](#_toc150443720)
+[7.3 Perfil de OCSP](#_toc150443720)
 
-[8. Auditoria de conformitat	69](#_toc150443721)
+[8. Auditoria de conformitat](#_toc150443721)
 
-[8.1. Freqüència de l'auditoria de conformitat	69](#_toc150443722)
+[8.1. Freqüència de l'auditoria de conformitat](#_toc150443722)
 
-[8.2. Identificació i qualificació de l'auditor	69](#_toc150443723)
+[8.2. Identificació i qualificació de l'auditor](#_toc150443723)
 
-[8.3. Relació de l'auditor amb l'entitat auditada	69](#_toc150443724)
+[8.3. Relació de l'auditor amb l'entitat auditada](#_toc150443724)
 
-[8.4. Relació d'elements objecte d'auditoria	70](#_toc150443725)
+[8.4. Relació d'elements objecte d'auditoria](#_toc150443725)
 
-[8.5. Accions a emprendre com a resultat d'una falta de conformitat	70](#_toc150443726)
+[8.5. Accions a emprendre com a resultat d'una falta de conformitat](#_toc150443726)
 
-[8.6. Tractament dels informes d'auditoria	70](#_toc150443727)
+[8.6. Tractament dels informes d'auditoria](#_toc150443727)
 
-[9. Requisits comercials i legals	71](#_toc150443728)
+[9. Requisits comercials i legals](#_toc150443728)
 
-[9.1. Imports	71](#_toc150443729)
+[9.1. Imports](#_toc150443729)
 
-[9.1.1. Import d'emissió i renovació de certificats	71](#_toc150443730)
+[9.1.1. Import d'emissió i renovació de certificats](#_toc150443730)
 
-[9.1.2. Import d'accés a certificats	71](#_toc150443731)
+[9.1.2. Import d'accés a certificats](#_toc150443731)
 
-[9.1.3. Import d'accés a informació d'estat de certificat	71](#_toc150443732)
+[9.1.3. Import d'accés a informació d'estat de certificat](#_toc150443732)
 
-[9.1.4. Imports d'altres serveis	71](#_toc150443733)
+[9.1.4. Imports d'altres serveis](#_toc150443733)
 
-[9.1.5. Política de reintegrament	71](#_toc150443734)
+[9.1.5. Política de reintegrament](#_toc150443734)
 
-[9.2. Capacitat financera	71](#_toc150443735)
+[9.2. Capacitat financera](#_toc150443735)
 
-[9.2.1. Segur de responsabilitat civil	71](#_toc150443736)
+[9.2.1. Segur de responsabilitat civil](#_toc150443736)
 
-[9.2.2. Altres actius	71](#_toc150443737)
+[9.2.2. Altres actius](#_toc150443737)
 
-[9.2.3. Cobertura d’assegurança per a subscriptors i tercers que confien en certificats	72](#_toc150443738)
+[9.2.3. Cobertura d’assegurança per a subscriptors i tercers que confien en certificats](#_toc150443738)
 
-[9.3. Confidencialitat	72](#_toc150443739)
+[9.3. Confidencialitat](#_toc150443739)
 
-[9.3.1. Informacions confidencials	72](#_toc150443740)
+[9.3.1. Informacions confidencials](#_toc150443740)
 
-[9.3.2. Informacions no confidencials	72](#_toc150443741)
+[9.3.2. Informacions no confidencials](#_toc150443741)
 
-[9.3.3. Responsabilitat per a la protecció d'informació confidencial	72](#_toc150443742)
+[9.3.3. Responsabilitat per a la protecció d'informació confidencial](#_toc150443742)
 
-[9.4. Protecció de dades personals	73](#_toc150443743)
+[9.4. Protecció de dades personals](#_toc150443743)
 
-[9.4.1. Política de Protecció de Dades Personals	73](#_toc150443744)
+[9.4.1. Política de Protecció de Dades Personals](#_toc150443744)
 
-[9.4.2. Dades de caràcter personal no disponibles a tercers	73](#_toc150443745)
+[9.4.2. Dades de caràcter personal no disponibles a tercers](#_toc150443745)
 
-[9.4.3. Dades de caràcter personal disponibles a tercers	74](#_toc150443746)
+[9.4.3. Dades de caràcter personal disponibles a tercers](#_toc150443746)
 
-[9.4.4. Responsabilitat corresponent a la protecció de dades personals	74](#_toc150443747)
+[9.4.4. Responsabilitat corresponent a la protecció de dades personals](#_toc150443747)
 
-[9.4.5. Gestió d'incidències relacionades amb les dades de caràcter personal	75](#_toc150443748)
+[9.4.5. Gestió d'incidències relacionades amb les dades de caràcter personal](#_toc150443748)
 
-[9.4.6. Tractament de dades de caràcter personal	76](#_toc150443749)
+[9.4.6. Tractament de dades de caràcter personal](#_toc150443749)
 
-[9.4.7. Comunicació de dades personals	76](#_toc150443750)
+[9.4.7. Comunicació de dades personals](#_toc150443750)
 
-[9.5. Drets de propietat	76](#_toc150443751)
+[9.5. Drets de propietat](#_toc150443751)
 
-[9.5.1. Propietat dels certificats i informació de revocació	76](#_toc150443752)
+[9.5.1. Propietat dels certificats i informació de revocació](#_toc150443752)
 
-[9.5.2. Propietat de la Declaració de Pràctiques de Certificació i les Polítiques de Certificació	77](#_toc150443753)
+[9.5.2. Propietat de la Declaració de Pràctiques de Certificació i les Polítiques de Certificació](#_toc150443753)
 
-[9.5.3. Propietat de la informació relativa a noms	77](#_toc150443754)
+[9.5.3. Propietat de la informació relativa a noms](#_toc150443754)
 
-[9.5.4. Propietat de claus	77](#_toc150443755)
+[9.5.4. Propietat de claus](#_toc150443755)
 
-[9.6. Obligacions i responsabilitat civil	77](#_toc150443756)
+[9.6. Obligacions i responsabilitat civil](#_toc150443756)
 
-[9.6.1. L'Entitat de Certificació	77](#_toc150443757)
+[9.6.1. L'Entitat de Certificació](#_toc150443757)
 
-[9.6.1.1. Obligacions i altres compromisos	77](#_toc150443758)
+[9.6.1.1. Obligacions i altres compromisos](#_toc150443758)
 
-[9.6.1.2. Garanties ofertes	79](#_toc150443759)
+[9.6.1.2. Garanties ofertes](#_toc150443759)
 
-[9.6.1.2.1. Garanties ofertes als subscriptors	79](#_toc150443760)
+[9.6.1.2.1. Garanties ofertes als subscriptors](#_toc150443760)
 
-[9.6.1.2.2. Garanties ofertes als verificadors	79](#_toc150443761)
+[9.6.1.2.2. Garanties ofertes als verificadors](#_toc150443761)
 
-[9.6.2. Entitats de Registre	80](#_toc150443762)
+[9.6.2. Entitats de Registre](#_toc150443762)
 
-[9.6.2.1. Obligacions i altres compromisos	80](#_toc150443763)
+[9.6.2.1. Obligacions i altres compromisos](#_toc150443763)
 
-[9.6.2.1.1. Obligacions de les Entitats de Registre Internes	80](#_toc150443764)
+[9.6.2.1.1. Obligacions de les Entitats de Registre Internes](#_toc150443764)
 
-[9.6.2.1.2. Entitat de Registre Virtual	81](#_toc150443765)
+[9.6.2.1.2. Entitat de Registre Virtual](#_toc150443765)
 
-[9.6.2.1.3. Entitat de Registre Col·laboradora	81](#_toc150443766)
+[9.6.2.1.3. Entitat de Registre Col·laboradora](#_toc150443766)
 
-[9.6.2.2. Garanties ofertes a subscriptor i verificadors	82](#_toc150443767)
+[9.6.2.2. Garanties ofertes a subscriptor i verificadors](#_toc150443767)
 
-[9.6.2.2.1. Garantia del Consorci AOC per als serveis de certificació digital	82](#_toc150443768)
+[9.6.2.2.1. Garantia del Consorci AOC per als serveis de certificació digital](#_toc150443768)
 
-[9.6.2.2.2. Exclusió de la garantia	82](#_toc150443769)
+[9.6.2.2.2. Exclusió de la garantia](#_toc150443769)
 
-[9.6.3. Subscriptors	82](#_toc150443770)
+[9.6.3. Subscriptors](#_toc150443770)
 
-[9.6.3.1. Obligacions i altres compromisos	82](#_toc150443771)
+[9.6.3.1. Obligacions i altres compromisos](#_toc150443771)
 
-[9.6.3.1.1. Requisits per a tots els tipus de certificats	82](#_toc150443772)
+[9.6.3.1.1. Requisits per a tots els tipus de certificats](#_toc150443772)
 
-[9.6.3.1.2. Requisits específics per als certificats de signatura electrònica qualificada	83](#_toc150443773)
+[9.6.3.1.2. Requisits específics per als certificats de signatura electrònica qualificada](#_toc150443773)
 
-[9.6.3.2. Garanties ofertes pel subscriptor	83](#_toc150443774)
+[9.6.3.2. Garanties ofertes pel subscriptor](#_toc150443774)
 
-[9.6.3.3. Protecció de la clau privada	84](#_toc150443775)
+[9.6.3.3. Protecció de la clau privada](#_toc150443775)
 
-[9.6.4. Verificadors	84](#_toc150443776)
+[9.6.4. Verificadors](#_toc150443776)
 
-[9.6.4.1. Obligacions i altres compromisos	84](#_toc150443777)
+[9.6.4.1. Obligacions i altres compromisos](#_toc150443777)
 
-[9.6.4.2. Garanties ofertes pel verificador	85](#_toc150443778)
+[9.6.4.2. Garanties ofertes pel verificador](#_toc150443778)
 
-[9.6.5. Consorci AOC	85](#_toc150443779)
+[9.6.5. Consorci AOC](#_toc150443779)
 
-[9.6.5.1. Obligacions i compromisos	85](#_toc150443780)
+[9.6.5.1. Obligacions i compromisos](#_toc150443780)
 
-[9.6.5.2. Garanties ofertes als subscriptors	85](#_toc150443781)
+[9.6.5.2. Garanties ofertes als subscriptors](#_toc150443781)
 
-[9.6.5.3. Garanties ofertes als verificadors	85](#_toc150443782)
+[9.6.5.3. Garanties ofertes als verificadors](#_toc150443782)
 
-[9.6.5.4. Exclusió de garanties	85](#_toc150443783)
+[9.6.5.4. Exclusió de garanties](#_toc150443783)
 
-[9.6.6. Directori	86](#_toc150443784)
+[9.6.6. Directori](#_toc150443784)
 
-[9.6.6.1. Obligacions i compromisos	86](#_toc150443785)
+[9.6.6.1. Obligacions i compromisos](#_toc150443785)
 
-[9.6.6.2. Garanties	86](#_toc150443786)
+[9.6.6.2. Garanties](#_toc150443786)
 
-[9.7. Renúncies de garanties	86](#_toc150443787)
+[9.7. Renúncies de garanties](#_toc150443787)
 
-[9.7.1. Rebuig de garanties de l'Entitat de Certificació	86](#_toc150443788)
+[9.7.1. Rebuig de garanties de l'Entitat de Certificació](#_toc150443788)
 
-[9.8. Limitacions de responsabilitat	86](#_toc150443789)
+[9.8. Limitacions de responsabilitat](#_toc150443789)
 
-[9.8.1. Limitacions de responsabilitat de l'Entitat de Certificació	86](#_toc150443790)
+[9.8.1. Limitacions de responsabilitat de l'Entitat de Certificació](#_toc150443790)
 
-[9.8.2. Cas fortuït i força major	86](#_toc150443791)
+[9.8.2. Cas fortuït i força major](#_toc150443791)
 
-[9.9. Indemnitzacions	86](#_toc150443792)
+[9.9. Indemnitzacions](#_toc150443792)
 
-[9.9.1. Clàusula d'indemnització de subscriptor	86](#_toc150443793)
+[9.9.1. Clàusula d'indemnització de subscriptor](#_toc150443793)
 
-[9.9.2. Clàusula d’indemnitat de verificador	87](#_toc150443794)
+[9.9.2. Clàusula d’indemnitat de verificador](#_toc150443794)
 
-[9.10. Termini i finalització	87](#_toc150443795)
+[9.10. Termini i finalització](#_toc150443795)
 
-[9.10.1. Termini i finalització	87](#_toc150443796)
+[9.10.1. Termini i finalització](#_toc150443796)
 
-[9.10.2. Supervivència	87](#_toc150443797)
+[9.10.2. Supervivència](#_toc150443797)
 
-[9.11. Notificacions	87](#_toc150443798)
+[9.11. Notificacions](#_toc150443798)
 
-[9.12. Modificacions	87](#_toc150443799)
+[9.12. Modificacions](#_toc150443799)
 
-[9.12.1. Procediment per a les modificacions	87](#_toc150443800)
+[9.12.1. Procediment per a les modificacions](#_toc150443800)
 
-[9.12.2. Període i mecanismes per a notificacions	88](#_toc150443801)
+[9.12.2. Període i mecanismes per a notificacions](#_toc150443801)
 
-[9.13. Resolució de conflictes	88](#_toc150443802)
+[9.13. Resolució de conflictes](#_toc150443802)
 
-[9.13.1. Resolució extrajudicial de conflictes	88](#_toc150443803)
+[9.13.1. Resolució extrajudicial de conflictes](#_toc150443803)
 
-[9.13.2. Jurisdicció competent	88](#_toc150443804)
+[9.13.2. Jurisdicció competent](#_toc150443804)
 
-[9.14. Llei aplicable	88](#_toc150443805)
+[9.14. Llei aplicable](#_toc150443805)
 
-[9.15. Conformitat amb la llei aplicable	89](#_toc150443806)
+[9.15. Conformitat amb la llei aplicable](#_toc150443806)
 
-[9.16. Clàusules diverses	89](#_toc150443807)
+[9.16. Clàusules diverses](#_toc150443807)
 
-[9.16.1. Acord íntegre	89](#_toc150443808)
+[9.16.1. Acord íntegre](#_toc150443808)
 
-[9.16.2. Subrogació	90](#_toc150443809)
+[9.16.2. Subrogació](#_toc150443809)
 
-[9.16.3. Divisibilitat	90](#_toc150443810)
+[9.16.3. Divisibilitat](#_toc150443810)
 
-[9.16.4. Aplicacions	90](#_toc150443811)
+[9.16.4. Aplicacions](#_toc150443811)
 
-[9.16.5. Altres clàusules	90](#_toc150443812)
+[9.16.5. Altres clàusules](#_toc150443812)
 
 
 
