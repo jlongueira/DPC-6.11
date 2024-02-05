@@ -55,9 +55,7 @@ La versió original en vigor d'aquest document es troba en format electrònic pu
 |6\.11|- Canvi d’adreça del prestador|10/01/2024|
 
 
-
------2 de 3
-<a name="_1fob9te"></a>**Índex**
+# <a name="_toc150443510"></a>**Índex**
 
 [1. Introducció	13](#_toc150443510)
 
